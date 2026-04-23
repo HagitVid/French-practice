@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>French Practice</title>
+  <script src="vocab_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #f0f4f8;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 32px 16px;
+      color: #2d3748;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #2b4c7e;
+      margin-bottom: 28px;
+      letter-spacing: -0.02em;
+    }
+
+    /* ── Controls ── */
+    .controls {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 28px;
+    }
+
+    select {
+      padding: 9px 14px;
+      border-radius: 8px;
+      border: 1px solid #cbd5e0;
+      font-size: 0.95rem;
+      background: white;
+      cursor: pointer;
+      min-width: 160px;
+      color: #2d3748;
+    }
+
+    .btn {
+      padding: 9px 12px;
+      border-radius: 8px;
+      border: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn-primary { background: #3b82f6; color: white; }
+    .btn-primary:hover { background: #2563eb; }
+
+    /* ── Progress ── */
+    .progress-text {
+      font-size: 0.85rem;
+      color: #718096;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .progress-bar {
+      width: 100%;
+      max-width: 640px;
+      height: 5px;
+      background: #e2e8f0;
+      border-radius: 3px;
+      margin-bottom: 28px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: #3b82f6;
+      border-radius: 3px;
+      transition: width 0.35s ease;
+    }
+
+    /* ── Match grid ── */
+    #practiceArea {
+      width: 100%;
+      max-width: 640px;
+    }
+
+    .match-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .match-col {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .match-col-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #a0aec0;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 2px;
+    }
+
+    .tile {
+      background: white;
+      border: 2px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 14px 16px;
+      font-size: 1rem;
+      font-weight: 500;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s, opacity 0.15s;
+      min-height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1.3;
+      user-select: none;
+    }
+
+    .tile:hover:not(.matched):not(.wrong) {
+      border-color: #93c5fd;
+      background: #eff6ff;
+    }
+
+    .tile.selected {
+      border-color: #3b82f6;
+      background: #dbeafe;
+    }
+
+    .tile.matched {
+      border-color: #10b981;
+      background: #d1fae5;
+      color: #065f46;
+      cursor: default;
+    }
+
+    .tile.wrong {
+      border-color: #f87171;
+      background: #fee2e2;
+      animation: shake 0.35s ease;
+    }
+
+    @keyframes shake {
+      0%,100% { transform: translateX(0); }
+      25% { transform: translateX(-6px); }
+      75% { transform: translateX(6px); }
+    }
+
+    /* ── Result screen ── */
+    .result-screen {
+      background: white;
+      border-radius: 18px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+      padding: 48px 40px;
+      max-width: 520px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .result-screen h2 {
+      font-size: 1.6rem;
+      color: #1a202c;
+      margin-bottom: 8px;
+    }
+
+    .score-pct {
+      font-size: 4rem;
+      font-weight: 800;
+      color: #3b82f6;
+      margin: 20px 0 8px;
+      line-height: 1;
+    }
+
+    .score-detail {
+      color: #718096;
+      font-size: 0.95rem;
+      margin-bottom: 32px;
+    }
+
+    .result-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+    .btn-secondary {
+      background: white;
+      color: #2d3748;
+      border: 1.5px solid #cbd5e0;
+      padding: 9px 12px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn-secondary:hover { background: #f7fafc; }
+
+    .hidden { display: none !important; }
+
+    .btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+    /* ── Words table ── */
+    #wordsPanel {
+      width: 100%;
+      max-width: 640px;
+      margin-bottom: 24px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      overflow: hidden;
+    }
+
+    #wordsTable {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+
+    #wordsTable th {
+      background: #ebf4ff;
+      color: #2b4c7e;
+      font-weight: 700;
+      padding: 10px 16px;
+      text-align: left;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    #wordsTable td {
+      padding: 9px 16px;
+      border-top: 1px solid #e2e8f0;
+      color: #2d3748;
+    }
+
+    #wordsTable td.fr-cell {
+      cursor: pointer;
+    }
+
+    #wordsTable td.fr-cell:hover {
+      color: #3b82f6;
+      text-decoration: underline;
+    }
+
+    #wordsTable tr:nth-child(even) td {
+      background: #f7fafc;
+    }
+  </style>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+  <h1>French Practice</h1>
+
+  <!-- Lesson selector + start -->
+  <div class="controls">
+    <select id="categorySelect"></select>
+    <select id="lessonSelect"></select>
+    <span id="wordCount" style="font-size:0.85rem;color:#718096;white-space:nowrap;"></span>
+    <button id="startBtn" class="btn btn-primary" onclick="startSession()" title="Start"><i data-lucide="play"></i></button>
+    <button id="displayWordsBtn" class="btn btn-secondary" onclick="displayWords()" disabled title="Display words"><i data-lucide="list"></i></button>
+  </div>
+
+  <!-- Words table panel -->
+  <div id="wordsPanel" class="hidden">
+    <table id="wordsTable">
+      <thead><tr><th>French</th><th>English</th></tr></thead>
+      <tbody id="wordsBody"></tbody>
+    </table>
+  </div>
+
+  <!-- Matching area -->
+  <div id="practiceArea" class="hidden">
+    <div class="progress-text" id="progressText"></div>
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill" style="width:0%"></div>
+    </div>
+
+    <div class="match-grid">
+      <div>
+        <div class="match-col-label">French</div>
+        <div class="match-col" id="colFR"></div>
+      </div>
+      <div>
+        <div class="match-col-label">English</div>
+        <div class="match-col" id="colEN"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Result screen -->
+  <div id="resultScreen" class="hidden result-screen">
+    <h2>Complete!</h2>
+    <div class="score-pct" id="scorePct"></div>
+    <p class="score-detail" id="scoreDetail"></p>
+    <div class="result-buttons">
+      <button class="btn btn-primary" onclick="startSession()" title="Play again"><i data-lucide="rotate-ccw"></i></button>
+    </div>
+  </div>
+
+  <script>
+    const GROUP_SIZE = 6;
+
+    let allCards = [];
+    let groups = [];
+    let groupIndex = 0;
+    let totalMatched = 0;
+    let totalErrors = 0;
+
+    // Per-group state
+    let selectedFR = null;   // { el, card }
+    let selectedEN = null;
+    let matchedInGroup = 0;
+    let busy = false;        // block clicks during wrong-flash
+
+    // ── Init ──────────────────────────────────────────────────────────────────
+
+    function fileDisplayName(path) {
+      const filename = path.split('/').pop();
+      return filename.replace('.txt', '').replace(/_/g, ' ');
+    }
+
+    function categoryDisplayName(cat) {
+      return cat.replace(/_/g, ' ');
+    }
+
+    function getPairs(path) {
+      const category = path.split('/')[0];
+      return (VOCAB_DATA[category] && VOCAB_DATA[category][path]) || [];
+    }
+
+    function populateLessons(category) {
+      const files = Object.keys(VOCAB_DATA[category] || {});
+      const sel = document.getElementById('lessonSelect');
+      sel.innerHTML = '';
+      files.forEach(path => {
+        const opt = document.createElement('option');
+        opt.value = path;
+        opt.textContent = fileDisplayName(path);
+        sel.appendChild(opt);
+      });
+      sel.selectedIndex = files.length - 1;
+    }
+
+    function init() {
+      const categories = Object.keys(VOCAB_DATA);
+
+      const catSel = document.getElementById('categorySelect');
+      catSel.innerHTML = '';
+      categories.forEach(cat => {
+        const opt = document.createElement('option');
+        opt.value = cat;
+        opt.textContent = categoryDisplayName(cat);
+        catSel.appendChild(opt);
+      });
+
+      catSel.addEventListener('change', () => {
+        populateLessons(catSel.value);
+        updateWordCount();
+      });
+      document.getElementById('lessonSelect').addEventListener('change', updateWordCount);
+
+      if (categories.length > 0) {
+        populateLessons(categories[0]);
+      }
+      updateWordCount();
+    }
+
+    function updateWordCount() {
+      const name = document.getElementById('lessonSelect').value;
+      if (!name) return;
+      document.getElementById('wordsPanel').classList.add('hidden');
+      document.getElementById('practiceArea').classList.add('hidden');
+      document.getElementById('resultScreen').classList.add('hidden');
+      const count = getPairs(name).length;
+      set('wordCount', `${count} word${count !== 1 ? 's' : ''}`);
+      document.getElementById('displayWordsBtn').disabled = false;
+    }
+
+    // ── Session ───────────────────────────────────────────────────────────────
+
+    function startSession() {
+      document.getElementById('displayWordsBtn').disabled = true;
+      document.getElementById('wordsPanel').classList.add('hidden');
+      const name = document.getElementById('lessonSelect').value;
+      allCards = shuffle([...getPairs(name)]);
+      groups = [];
+      for (let i = 0; i < allCards.length; i += GROUP_SIZE) {
+        groups.push(allCards.slice(i, i + GROUP_SIZE));
+      }
+      groupIndex = 0;
+      totalMatched = 0;
+      totalErrors = 0;
+      show('practiceArea');
+      loadGroup();
+    }
+
+    // ── Group ─────────────────────────────────────────────────────────────────
+
+    function loadGroup() {
+      selectedFR = null;
+      selectedEN = null;
+      matchedInGroup = 0;
+      busy = false;
+
+      const group = groups[groupIndex];
+
+      // Build two shuffled lists
+      const frItems = shuffle([...group]);
+      const enItems = shuffle([...group]);
+
+      renderCol('colFR', frItems, 'fr');
+      renderCol('colEN', enItems, 'en');
+      updateProgress();
+    }
+
+    function renderCol(colId, items, side) {
+      const col = document.getElementById(colId);
+      col.innerHTML = '';
+      items.forEach(card => {
+        const tile = document.createElement('div');
+        tile.className = 'tile';
+        tile.textContent = side === 'fr' ? card.fr : card.en;
+        tile.dataset.fr = card.fr;
+        tile.dataset.en = card.en;
+        tile.addEventListener('click', () => onTileClick(tile, side));
+        col.appendChild(tile);
+      });
+    }
+
+    function speakFrench(text) {
+      if (!window.speechSynthesis) return;
+      window.speechSynthesis.cancel();
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = 'fr-FR';
+      window.speechSynthesis.speak(utter);
+    }
+
+    function onTileClick(tile, side) {
+      if (busy) return;
+      if (tile.classList.contains('matched')) return;
+      if (side === 'fr') speakFrench(tile.dataset.fr);
+
+      if (side === 'fr') {
+        if (selectedFR?.el === tile) {
+          // Deselect
+          tile.classList.remove('selected');
+          selectedFR = null;
+          return;
+        }
+        if (selectedFR) selectedFR.el.classList.remove('selected');
+        tile.classList.add('selected');
+        selectedFR = { el: tile, fr: tile.dataset.fr, en: tile.dataset.en };
+      } else {
+        if (selectedEN?.el === tile) {
+          tile.classList.remove('selected');
+          selectedEN = null;
+          return;
+        }
+        if (selectedEN) selectedEN.el.classList.remove('selected');
+        tile.classList.add('selected');
+        selectedEN = { el: tile, fr: tile.dataset.fr, en: tile.dataset.en };
+      }
+
+      if (selectedFR && selectedEN) {
+        checkMatch();
+      }
+    }
+
+    function checkMatch() {
+      const frEl = selectedFR.el;
+      const enEl = selectedEN.el;
+      const isMatch = selectedFR.fr === selectedEN.fr && selectedFR.en === selectedEN.en;
+
+      if (isMatch) {
+        frEl.classList.remove('selected');
+        enEl.classList.remove('selected');
+        frEl.classList.add('matched');
+        enEl.classList.add('matched');
+        selectedFR = null;
+        selectedEN = null;
+        matchedInGroup++;
+        totalMatched++;
+        updateProgress();
+
+        if (matchedInGroup === groups[groupIndex].length) {
+          groupIndex++;
+          if (groupIndex >= groups.length) {
+            setTimeout(showResult, 400);
+          } else {
+            setTimeout(loadGroup, 600);
+          }
+        }
+      } else {
+        totalErrors++;
+        busy = true;
+        frEl.classList.remove('selected');
+        enEl.classList.remove('selected');
+        frEl.classList.add('wrong');
+        enEl.classList.add('wrong');
+        setTimeout(() => {
+          frEl.classList.remove('wrong');
+          enEl.classList.remove('wrong');
+          selectedFR = null;
+          selectedEN = null;
+          busy = false;
+        }, 600);
+      }
+    }
+
+    // ── Progress ──────────────────────────────────────────────────────────────
+
+    function updateProgress() {
+      const total = allCards.length;
+      const pct = total > 0 ? Math.round((totalMatched / total) * 100) : 0;
+      set('progressText', `${totalMatched} of ${total} matched`);
+      document.getElementById('progressFill').style.width = pct + '%';
+    }
+
+    // ── Result ────────────────────────────────────────────────────────────────
+
+    function showResult() {
+      show('resultScreen');
+      const total = allCards.length;
+      const accuracy = total > 0 ? Math.round((total / (total + totalErrors)) * 100) : 100;
+      set('scorePct', accuracy + '%');
+      set('scoreDetail',
+        totalErrors === 0
+          ? `Perfect! All ${total} pairs matched with no mistakes.`
+          : `${total} pairs matched with ${totalErrors} wrong guess${totalErrors !== 1 ? 'es' : ''}.`
+      );
+    }
+
+    // ── Display words ─────────────────────────────────────────────────────────
+
+    function displayWords() {
+      const panel = document.getElementById('wordsPanel');
+      if (!panel.classList.contains('hidden')) {
+        panel.classList.add('hidden');
+        return;
+      }
+      const name = document.getElementById('lessonSelect').value;
+      const cards = getPairs(name);
+      const tbody = document.getElementById('wordsBody');
+      tbody.innerHTML = '';
+      cards.forEach(card => {
+        const tr = document.createElement('tr');
+        const frTd = document.createElement('td');
+        frTd.textContent = card.fr;
+        frTd.className = 'fr-cell';
+        frTd.title = 'Click to hear pronunciation';
+        frTd.addEventListener('click', () => speakFrench(card.fr));
+        const enTd = document.createElement('td');
+        enTd.textContent = card.en;
+        tr.appendChild(frTd);
+        tr.appendChild(enTd);
+        tbody.appendChild(tr);
+      });
+      panel.classList.remove('hidden');
+    }
+
+    // ── Helpers ───────────────────────────────────────────────────────────────
+
+    function shuffle(arr) {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr;
+    }
+
+    function show(id) {
+      ['practiceArea', 'resultScreen'].forEach(x => {
+        document.getElementById(x).classList.toggle('hidden', x !== id);
+      });
+    }
+
+    function set(id, text) {
+      document.getElementById(id).textContent = text;
+    }
+
+    init();
+    lucide.createIcons();
+  </script>
+</body>
+</html>
