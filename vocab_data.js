@@ -1,4 +1,4 @@
-const VOCAB_DATA = {
+﻿const VOCAB_DATA = {
   "Alice_Lessons": {
     "Alice_Lessons/Alice_Lesson_01.txt": [
       {
