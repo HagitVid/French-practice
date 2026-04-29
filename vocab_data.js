@@ -1,4 +1,4 @@
-﻿const VOCAB_DATA = {
+const VOCAB_DATA = {
   "Alice_Lessons": {
     "Alice_Lessons/Alice_Lesson_01.txt": [
       {
@@ -1608,6 +1608,130 @@
       {
         "fr": "Une salle",
         "en": "Une pièce dans un bâtiment public"
+      }
+    ],
+    "Alice_Lessons/Alice_Lesson_26.txt": [
+      {
+        "fr": "Plaisanter",
+        "en": "To joke"
+      },
+      {
+        "fr": "Rénovér",
+        "en": "To renovate (לשפץ)"
+      },
+      {
+        "fr": "Repeindre",
+        "en": "To repaint"
+      },
+      {
+        "fr": "Être crevé",
+        "en": "To be exhausted (langage familier)"
+      },
+      {
+        "fr": "Faire appel à",
+        "en": "לפנות אל"
+      },
+      {
+        "fr": "Décorateur d'intérieur / Décoratrice d'intérieur",
+        "en": "Interior decorator"
+      },
+      {
+        "fr": "Des travaux",
+        "en": "עבודות שיפוץ"
+      },
+      {
+        "fr": "Une moquette",
+        "en": "Carpet (שטיח מקיר לקיר)"
+      },
+      {
+        "fr": "Le carrelage",
+        "en": "Tiles (אריחים, מרצפות)"
+      },
+      {
+        "fr": "Un canapé / un sofa",
+        "en": "A couch"
+      },
+      {
+        "fr": "Fidèle",
+        "en": "Loyal"
+      },
+      {
+        "fr": "En soldes",
+        "en": "On sale"
+      },
+      {
+        "fr": "À ma façon",
+        "en": "In my own way"
+      },
+      {
+        "fr": "Moi-même",
+        "en": "Myself"
+      }
+    ],
+    "Alice_Lessons/Alice_Lesson_27.txt": [
+      {
+        "fr": "Un instant !",
+        "en": "Just a moment!"
+      },
+      {
+        "fr": "Deux secondes !",
+        "en": "Two seconds!"
+      },
+      {
+        "fr": "Une moquette",
+        "en": "A carpet (שטיח מקיר לקיר)"
+      },
+      {
+        "fr": "Le carrelage",
+        "en": "Tiles (אריחים, מרצפות)"
+      },
+      {
+        "fr": "Un parquet",
+        "en": "A parquet floor (רצפת פרקט)"
+      },
+      {
+        "fr": "Le sol",
+        "en": "The floor"
+      },
+      {
+        "fr": "Le plafond",
+        "en": "The ceiling"
+      },
+      {
+        "fr": "Un étage",
+        "en": "Floor (קומה)"
+      },
+      {
+        "fr": "Un toboggan",
+        "en": "A slide"
+      },
+      {
+        "fr": "Un lustre en cristal",
+        "en": "A crystal chandelier"
+      },
+      {
+        "fr": "Une table basse",
+        "en": "A coffee table"
+      },
+      {
+        "fr": "en marbre",
+        "en": "From marble (משיש)"
+      },
+      {
+        "fr": "Une lumière tamisée",
+        "en": "A dim light (אור עמום)"
+      },
+      {
+        "fr": "Le papier peint",
+        "en": "Wallpaper"
+      },
+      {
+        "fr": "Couleurs pâle ≠ vives / flashy",
+        "en": "Pale colors ≠ bright/flashy colors"
+      },
+      {
+        "fr": "Couleurs claires ≠ foncées",
+        "en": "Light colors ≠ dark colors"
       }
     ]
   },
