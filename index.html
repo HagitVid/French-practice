@@ -539,6 +539,7 @@
 
     function showResult() {
       show('resultScreen');
+      document.getElementById('displayWordsBtn').disabled = false;
       const total = allCards.length;
       const accuracy = total > 0 ? Math.round((total / (total + totalErrors)) * 100) : 100;
       set('scorePct', accuracy + '%');
