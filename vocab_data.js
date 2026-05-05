@@ -1733,6 +1733,56 @@ const VOCAB_DATA = {
         "fr": "Couleurs claires ≠ foncées",
         "en": "Light colors ≠ dark colors"
       }
+    ],
+    "Alice_Lessons/Alice_Lesson_28.txt": [
+      {
+        "fr": "Ça vous plait?",
+        "en": "How do you like it?"
+      },
+      {
+        "fr": "Un léopard",
+        "en": "נמר"
+      },
+      {
+        "fr": "C'est trop chargé.",
+        "en": "זה עמוס מדי"
+      },
+      {
+        "fr": "Chargé",
+        "en": "Loaded (עמוס, צפוף)"
+      },
+      {
+        "fr": "Épuré",
+        "en": "Minimalist, clean (מינימליסטי, מצומצם)"
+      },
+      {
+        "fr": "Convenir",
+        "en": "To agree"
+      },
+      {
+        "fr": "Embaucher",
+        "en": "To hire"
+      },
+      {
+        "fr": "Blesser",
+        "en": "To hurt"
+      },
+      {
+        "fr": "Ce n'est pas à mon goût.",
+        "en": "It's not to my taste."
+      },
+      {
+        "fr": "Vexé",
+        "en": "Upset"
+      },
+      {
+        "fr": "Le client est roi",
+        "en": "The client is always right"
+      },
+      {
+        "fr": "La mairie",
+        "en": "The city hall"
+      }
     ]
   },
   "Aurelia_Lessons": {
