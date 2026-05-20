@@ -1576,8 +1576,8 @@ const VOCAB_DATA = {
         "en": "Close to home"
       },
       {
-        "fr": "S'occuper de",
-        "en": "To take care of something (not someone)"
+        "fr": "S’occuper de",
+        "en": "To take care of (להשגיח על, לטפל)"
       }
     ],
     "Alice_Lessons/Alice_Lesson_25.txt": [
@@ -1791,7 +1791,7 @@ const VOCAB_DATA = {
       },
       {
         "fr": "Faire attention à",
-        "en": "To take care of, to pay attention"
+        "en": "To pay attention to (לשים לב)"
       },
       {
         "fr": "S’attendre à",
@@ -1816,6 +1816,32 @@ const VOCAB_DATA = {
       {
         "fr": "Je plaisante",
         "en": "I’m joking"
+      }
+    ],
+    "Alice_Lessons/Alice_Lesson_30.txt": [
+      {
+        "fr": "Pittoresque",
+        "en": "פסטורלי, ציורי"
+      },
+      {
+        "fr": "Se reposer",
+        "en": "To rest"
+      },
+      {
+        "fr": "Faire attention à",
+        "en": "To pay attention to (לשים לב)"
+      },
+      {
+        "fr": "S’occuper de",
+        "en": "To take care of (להשגיח על, לטפל)"
+      },
+      {
+        "fr": "Je suis en plein film",
+        "en": "I'm in the middle of a movie"
+      },
+      {
+        "fr": "Du coup",
+        "en": "As a result (כתוצאה מכך, לכן)"
       }
     ]
   },
