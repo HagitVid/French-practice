@@ -1843,6 +1843,80 @@ const VOCAB_DATA = {
         "fr": "Du coup",
         "en": "As a result (כתוצאה מכך, לכן)"
       }
+    ],
+    "Alice_Lessons/Alice_Lesson_31.txt": [
+      {
+        "fr": "Quoi de neuf ?",
+        "en": "What's new?"
+      },
+      {
+        "fr": "Un jour férié",
+        "en": "A religious or national holiday"
+      },
+      {
+        "fr": "Passer un bon moment",
+        "en": "To have a good time"
+      },
+      {
+        "fr": "Une échelle",
+        "en": "A ladder"
+      },
+      {
+        "fr": "Avoir vue sur",
+        "en": "To have a view of"
+      },
+      {
+        "fr": "J’ai vue sur les arbres et les voitures de ma petite rue.",
+        "en": "I have a view of the trees and cars on my little street."
+      },
+      {
+        "fr": "Un citronnier",
+        "en": "A lemon tree"
+      },
+      {
+        "fr": "Environnement",
+        "en": "Surroundings"
+      },
+      {
+        "fr": "Si seulement",
+        "en": "If only, I wish"
+      },
+      {
+        "fr": "Immense",
+        "en": "Immense, huge"
+      },
+      {
+        "fr": "Une âme",
+        "en": "A soul"
+      },
+      {
+        "fr": "Il n’a pas d’âme.",
+        "en": "He has no soul."
+      },
+      {
+        "fr": "On dirait (que + verbe)",
+        "en": "It looks like"
+      },
+      {
+        "fr": "On a l'impression (que + verbe)",
+        "en": "It looks like"
+      },
+      {
+        "fr": "On dirait une maison de hobbit.",
+        "en": "It looks like a hobbit house."
+      },
+      {
+        "fr": "On dirait que c'est une maison de hobbit.",
+        "en": "It looks like a hobbit house."
+      },
+      {
+        "fr": "Mignon / Mignonne",
+        "en": "Cute"
+      },
+      {
+        "fr": "à l’inverse de",
+        "en": "Unlike"
+      }
     ]
   },
   "Aurelia_Lessons": {
