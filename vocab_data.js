@@ -1916,6 +1916,108 @@ const VOCAB_DATA = {
       {
         "fr": "à l’inverse de",
         "en": "Unlike"
+      },
+      {
+        "fr": "Un immeuble haussmannien",
+        "en": "A Haussmannian building"
+      }
+    ],
+    "Alice_Lessons/Alice_Lesson_32.txt": [
+      {
+        "fr": "Usé",
+        "en": "Used, worn out"
+      },
+      {
+        "fr": "La météo",
+        "en": "The weather"
+      },
+      {
+        "fr": "Le présentateur météo",
+        "en": "The weather presenter"
+      },
+      {
+        "fr": "La température",
+        "en": "The temperature"
+      },
+      {
+        "fr": "Le soleil",
+        "en": "The sun"
+      },
+      {
+        "fr": "La pluie",
+        "en": "The rain"
+      },
+      {
+        "fr": "La neige",
+        "en": "The snow"
+      },
+      {
+        "fr": "Le vent",
+        "en": "The wind"
+      },
+      {
+        "fr": "Une tempête",
+        "en": "A storm"
+      },
+      {
+        "fr": "Ensoleillée",
+        "en": "Sunny"
+      },
+      {
+        "fr": "C’est une journée ensoleillée",
+        "en": "It's a sunny day"
+      },
+      {
+        "fr": "Il fait frais",
+        "en": "It's cool"
+      },
+      {
+        "fr": "Il fait bon",
+        "en": "It's nice"
+      },
+      {
+        "fr": "Des nuages",
+        "en": "Clouds"
+      },
+      {
+        "fr": "Le temps est nuageux",
+        "en": "The weather is cloudy."
+      },
+      {
+        "fr": "Des éclairs",
+        "en": "Lightnings"
+      },
+      {
+        "fr": "Un orage",
+        "en": "A thunderstorm"
+      },
+      {
+        "fr": "Une éclaircie",
+        "en": "A clearing (התבהרות)"
+      },
+      {
+        "fr": "Une averse",
+        "en": "A downpour (גשם שוטף לזמן קצר)"
+      },
+      {
+        "fr": "Un parapluie",
+        "en": "An umbrella"
+      },
+      {
+        "fr": "Prendre un parapluie",
+        "en": "To take an umbrella"
+      },
+      {
+        "fr": "S'habiller",
+        "en": "To get dressed"
+      },
+      {
+        "fr": "Sourtout",
+        "en": "Especially"
+      },
+      {
+        "fr": "Parler de la pluie et du beau temps",
+        "en": "Bavarder de choses sans importance"
       }
     ]
   },
