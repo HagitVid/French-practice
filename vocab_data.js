@@ -1997,7 +1997,11 @@ const VOCAB_DATA = {
       },
       {
         "fr": "Une averse",
-        "en": "A downpour (גשם שוטף לזמן קצר)"
+        "en": "A downpour (גשם שוטף וקצר)"
+      },
+      {
+        "fr": "Parler de la pluie et du beau temps",
+        "en": "To chat about unimportant things"
       },
       {
         "fr": "Un parapluie",
@@ -2018,6 +2022,104 @@ const VOCAB_DATA = {
       {
         "fr": "Parler de la pluie et du beau temps",
         "en": "Bavarder de choses sans importance"
+      }
+    ],
+    "Alice_Lessons/Alice_Lesson_33.txt": [
+      {
+        "fr": "Une boucle d’oreille",
+        "en": "An earring"
+      },
+      {
+        "fr": "Le vernis à ongle",
+        "en": "Nail polish"
+      },
+      {
+        "fr": "il neige à l’est.",
+        "en": "It's snowing in the east."
+      },
+      {
+        "fr": "Il pleut à l’ouest.",
+        "en": "It's raining in the west."
+      },
+      {
+        "fr": "Mercredi il y a beaucoup de nuages, c'est nuageux.",
+        "en": "Wednesday there are a lot of clouds, it's cloudy."
+      },
+      {
+        "fr": "La journée sera ensoleillée.",
+        "en": "The day will be sunny."
+      },
+      {
+        "fr": "Lundi, il y aura du vent au sud du pays.",
+        "en": "On Monday, there will be wind in the south of the country."
+      },
+      {
+        "fr": "Fraîcheur",
+        "en": "Freshness, coolness"
+      },
+      {
+        "fr": "Chez moi tôt le matin, il fait frais mais à partir de 8h la fraîcheur est partie. Il fait chaud.",
+        "en": "At my place, it's cool early in the morning, but by 8am the coolness is gone. It's hot."
+      },
+      {
+        "fr": "Parler de la pluie et du beau temps",
+        "en": "Bavarder de choses sans importance"
+      },
+      {
+        "fr": "La grêle",
+        "en": "Hail (ברד)"
+      },
+      {
+        "fr": "Une averse",
+        "en": "A downpour (גשם שוטף וקצר)"
+      },
+      {
+        "fr": "L’orage",
+        "en": "Le bruit avant ou pendant une grosse pluie"
+      },
+      {
+        "fr": "Une tempête",
+        "en": "A storm"
+      },
+      {
+        "fr": "Une éclaircie",
+        "en": "A clearing (התבהרות)"
+      },
+      {
+        "fr": "Un arc en ciel",
+        "en": "A rainbow"
+      },
+      {
+        "fr": "Le bulletin météo",
+        "en": "The weather report"
+      },
+      {
+        "fr": "Se dégager",
+        "en": "להתבהר"
+      },
+      {
+        "fr": "Le ciel est dégagé.",
+        "en": "The sky is clearing."
+      },
+      {
+        "fr": "Être comprise entre",
+        "en": "To be between the range of"
+      },
+      {
+        "fr": "s’écarter pour faire de la place",
+        "en": "To give place to ="
+      },
+      {
+        "fr": "Faites-moi une place",
+        "en": "Make room for me"
+      },
+      {
+        "fr": "Laissez-moi une place",
+        "en": "Leave me a seat"
+      },
+      {
+        "fr": "La glace",
+        "en": "The ice"
       }
     ]
   },
