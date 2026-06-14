@@ -2121,6 +2121,60 @@ const VOCAB_DATA = {
         "fr": "La glace",
         "en": "The ice"
       }
+    ],
+    "Alice_Lessons/Alice_Lesson_34.txt": [
+      {
+        "fr": "Un étudiant",
+        "en": "Student (סטודנט)"
+      },
+      {
+        "fr": "Un élève",
+        "en": "Pupil (תלמיד)"
+      },
+      {
+        "fr": "Une course",
+        "en": "A race"
+      },
+      {
+        "fr": "Un cours",
+        "en": "A lesson"
+      },
+      {
+        "fr": "Sourd",
+        "en": "Deaf"
+      },
+      {
+        "fr": "Une éclaircie",
+        "en": "A clearing (התבהרות)"
+      },
+      {
+        "fr": "Se dégager",
+        "en": "להתבהר"
+      },
+      {
+        "fr": "Une tempête de sable",
+        "en": "Sandstorm (סופת חול)"
+      },
+      {
+        "fr": "Détruite",
+        "en": "Destroyed"
+      },
+      {
+        "fr": "Trembler",
+        "en": "To tremble (לרעוד)"
+      },
+      {
+        "fr": "Ça fait peur",
+        "en": "It’s frightening, that’s scary"
+      },
+      {
+        "fr": "Je n’ai jamais vécu de tempête",
+        "en": "I have never experienced a storm"
+      },
+      {
+        "fr": "Heureusement",
+        "en": "Fortunately, thanks god"
+      }
     ]
   },
   "Aurelia_Lessons": {
