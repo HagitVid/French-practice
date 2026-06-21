@@ -2175,6 +2175,48 @@ const VOCAB_DATA = {
         "fr": "Heureusement",
         "en": "Fortunately, thanks god"
       }
+    ],
+    "Alice_Lessons/Alice_Lesson_35.txt": [
+      {
+        "fr": "Faire de la pub",
+        "en": "To advertise"
+      },
+      {
+        "fr": "Un monde fou",
+        "en": "A lot of people"
+      },
+      {
+        "fr": "Baigneurs",
+        "en": "Swimmers (מתרחצים)"
+      },
+      {
+        "fr": "S e baigner",
+        "en": "To swim, to bathe"
+      },
+      {
+        "fr": "Tant mieux",
+        "en": "So much the better, that’s great"
+      },
+      {
+        "fr": "Une crème solaire",
+        "en": "A sunscreen"
+      },
+      {
+        "fr": "Coup de soleil",
+        "en": "Sunburn"
+      },
+      {
+        "fr": "Prendre des coups de soleil",
+        "en": "To get sunburns"
+      },
+      {
+        "fr": "Ça a l'air sympa / agréable.",
+        "en": "It looks nice / pleasant."
+      },
+      {
+        "fr": "Ça ne me parait pas amusant.",
+        "en": "That doesn't seem fun to me."
+      }
     ]
   },
   "Aurelia_Lessons": {
