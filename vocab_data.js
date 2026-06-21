@@ -2190,7 +2190,7 @@ const VOCAB_DATA = {
         "en": "Swimmers (מתרחצים)"
       },
       {
-        "fr": "S e baigner",
+        "fr": "Se baigner",
         "en": "To swim, to bathe"
       },
       {
