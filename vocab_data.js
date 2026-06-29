@@ -2217,6 +2217,28 @@ const VOCAB_DATA = {
         "fr": "Ça ne me parait pas amusant.",
         "en": "That doesn't seem fun to me."
       }
+    ],
+    "Alice_Lessons/Alice_Lesson_36.txt": [
+      {
+        "fr": "Il y a un monde fou",
+        "en": "There are a lot of people"
+      },
+      {
+        "fr": "C’est un monde fou",
+        "en": "It's a crazy world"
+      },
+      {
+        "fr": "Salé",
+        "en": "Salty"
+      },
+      {
+        "fr": "Trier des dechets",
+        "en": "To sort waste (למיין פסולת)"
+      },
+      {
+        "fr": "Se masser",
+        "en": "To massage (לעסות)"
+      }
     ]
   },
   "Aurelia_Lessons": {
