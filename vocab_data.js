@@ -2239,6 +2239,80 @@ const VOCAB_DATA = {
         "fr": "Se masser",
         "en": "To massage (לעסות)"
       }
+    ],
+    "Alice_Lessons/Alice_Lesson_37.txt": [
+      {
+        "fr": "Comment tu dis … ?",
+        "en": "How do you say…?"
+      },
+      {
+        "fr": "Une concurrence",
+        "en": "תחרות, מתחרה"
+      },
+      {
+        "fr": "Danse de salon",
+        "en": "Ballroom dancing (ריקודים סלוניים)"
+      },
+      {
+        "fr": "Je suis à la retraite.",
+        "en": "I am retired."
+      },
+      {
+        "fr": "Gendre",
+        "en": "Son in law"
+      },
+      {
+        "fr": "Établissement vinicole",
+        "en": "Winery (יקב)"
+      },
+      {
+        "fr": "Éditeur / Éditrice",
+        "en": "Editor"
+      },
+      {
+        "fr": "Depuis combien de temps tu habites en France ?",
+        "en": "How long have you lived in France? (כמה זמן אתה גר בצרפת?)"
+      },
+      {
+        "fr": "Une personne âgée",
+        "en": "An elderly person"
+      },
+      {
+        "fr": "Un ventilateur",
+        "en": "A fan (מאוורר)"
+      },
+      {
+        "fr": "Un drap humide",
+        "en": "A wet sheet"
+      },
+      {
+        "fr": "Une baignoire",
+        "en": "A bathtub"
+      },
+      {
+        "fr": "Un meilleur climat",
+        "en": "A better climate"
+      },
+      {
+        "fr": "Rejoindre",
+        "en": "To join"
+      },
+      {
+        "fr": "Un maillot de bain",
+        "en": "A swimsuit"
+      },
+      {
+        "fr": "On voit toujours la vie en rose.",
+        "en": "We always see life through rose-colored glasses."
+      },
+      {
+        "fr": "En gras",
+        "en": "In bold"
+      },
+      {
+        "fr": "Depuis combien de temps tu habites en France?",
+        "en": "How long have you lived in France?"
+      }
     ]
   },
   "Aurelia_Lessons": {
