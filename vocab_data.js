@@ -2254,7 +2254,7 @@ const VOCAB_DATA = {
         "en": "Ballroom dancing (ריקודים סלוניים)"
       },
       {
-        "fr": "Je suis à la retraite.",
+        "fr": "Je suis retraitée / Je suis à la retraite",
         "en": "I am retired."
       },
       {
@@ -2348,7 +2348,7 @@ const VOCAB_DATA = {
         "en": "Something natural"
       },
       {
-        "fr": "Du vernis à ongles",
+        "fr": "Du vernis /  Du vernis à ongles",
         "en": "Nail polish"
       },
       {
@@ -2392,7 +2392,7 @@ const VOCAB_DATA = {
         "en": "To look like (להיראות)"
       },
       {
-        "fr": "Toute seule",
+        "fr": "Moi-même /  Toute seule",
         "en": "On my own"
       },
       {
