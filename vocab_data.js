@@ -2270,10 +2270,6 @@ const VOCAB_DATA = {
         "en": "Editor"
       },
       {
-        "fr": "Depuis combien de temps tu habites en France ?",
-        "en": "How long have you lived in France? (כמה זמן אתה גר בצרפת?)"
-      },
-      {
         "fr": "Une personne âgée",
         "en": "An elderly person"
       },
@@ -2311,7 +2307,121 @@ const VOCAB_DATA = {
       },
       {
         "fr": "Depuis combien de temps tu habites en France?",
-        "en": "How long have you lived in France?"
+        "en": "How long have you lived in France? (כמה זמן אתה גר בצרפת?)"
+      }
+    ],
+    "Alice_Lessons/Alice_Lesson_38.txt": [
+      {
+        "fr": "Je suis passionnée de jardinage.",
+        "en": "I'm passionate about gardening."
+      },
+      {
+        "fr": "Je suis passionnée de chiens.",
+        "en": "I'm passionate about dogs."
+      },
+      {
+        "fr": "Un entretien d’embauche",
+        "en": "A job interview"
+      },
+      {
+        "fr": "S’habiller",
+        "en": "To get dressed"
+      },
+      {
+        "fr": "Un métier créatif",
+        "en": "A creative job"
+      },
+      {
+        "fr": "Des couleurs criardes",
+        "en": "Loud colors (צבעים צעקניים)"
+      },
+      {
+        "fr": "Rouge vif",
+        "en": "Deep red, shocking red(אדום עז)"
+      },
+      {
+        "fr": "Rose pâle",
+        "en": "Pale pink"
+      },
+      {
+        "fr": "Quelque chose de naturelle",
+        "en": "Something natural"
+      },
+      {
+        "fr": "Du vernis à ongles",
+        "en": "Nail polish"
+      },
+      {
+        "fr": "Un vernis nude",
+        "en": "A nude varnish (לק בגוון גוף)"
+      },
+      {
+        "fr": "Manucure",
+        "en": "מניקור"
+      },
+      {
+        "fr": "Les cheveux propres",
+        "en": "Clean hair"
+      },
+      {
+        "fr": "Les cheveux coiffés",
+        "en": "Styled hair"
+      },
+      {
+        "fr": "Des talons hauts",
+        "en": "High heels"
+      },
+      {
+        "fr": "De temps en temps",
+        "en": "Sometimes"
+      },
+      {
+        "fr": "Depuis que",
+        "en": "Since (מאז ש...)"
+      },
+      {
+        "fr": "Humeur",
+        "en": "Mood"
+      },
+      {
+        "fr": "Humour",
+        "en": "Humor"
+      },
+      {
+        "fr": "Avoir l'air",
+        "en": "To look like (להיראות)"
+      },
+      {
+        "fr": "Toute seule",
+        "en": "On my own"
+      },
+      {
+        "fr": "Maladroite",
+        "en": "Clumsy"
+      },
+      {
+        "fr": "Esthéticienne",
+        "en": "Beautician"
+      },
+      {
+        "fr": "Prendre soin",
+        "en": "To take care"
+      },
+      {
+        "fr": "Une musique relaxante",
+        "en": "Relaxing music"
+      },
+      {
+        "fr": "Parler de la pluie et du beau temps",
+        "en": "לדבר על הא ודא"
+      },
+      {
+        "fr": "Ça m’ennuie",
+        "en": "It’s boring me"
+      },
+      {
+        "fr": "Éteindre le feu",
+        "en": "To put out the fire"
       }
     ]
   },
