@@ -2404,8 +2404,12 @@ const VOCAB_DATA = {
         "en": "Beautician"
       },
       {
-        "fr": "Prendre soin",
-        "en": "To take care"
+        "fr": "Prendre soin de",
+        "en": "To take care of"
+      },
+      {
+        "fr": "je prends soin de moi.",
+        "en": "I take care of myself."
       },
       {
         "fr": "Une musique relaxante",
