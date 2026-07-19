@@ -2427,6 +2427,116 @@ const VOCAB_DATA = {
         "fr": "Éteindre le feu",
         "en": "To put out the fire"
       }
+    ],
+    "Alice_Lessons/Alice_Lesson_39.txt": [
+      {
+        "fr": "Des feux d’artifices",
+        "en": "Fireworks"
+      },
+      {
+        "fr": "Les incendies, les feux",
+        "en": "Fire (שריפות)"
+      },
+      {
+        "fr": "Un défilé",
+        "en": "A parade (מצעד)"
+      },
+      {
+        "fr": "Défiler",
+        "en": "To parade, to march"
+      },
+      {
+        "fr": "Il s'ennuie",
+        "en": "He is bored"
+      },
+      {
+        "fr": "Au début de",
+        "en": "At the beginning of"
+      },
+      {
+        "fr": "Au bout de",
+        "en": "At the end of"
+      },
+      {
+        "fr": "Les personnes âgées",
+        "en": "The elders"
+      },
+      {
+        "fr": "Des agriculteurs",
+        "en": "Farmers"
+      },
+      {
+        "fr": "Des maçons",
+        "en": "Builders"
+      },
+      {
+        "fr": "Des ouvriers du bâtiment",
+        "en": "Construction workers (פועלי בניין)"
+      },
+      {
+        "fr": "Un SDF (sans domicile fixe)",
+        "en": "A homeless"
+      },
+      {
+        "fr": "Un clochard",
+        "en": "A homeless, a beggar (נווד)"
+      },
+      {
+        "fr": "Un peu pejoratif",
+        "en": "קצת מזלזל"
+      },
+      {
+        "fr": "Fuir",
+        "en": "To escape"
+      },
+      {
+        "fr": "Un centre commercial",
+        "en": "A shopping center"
+      },
+      {
+        "fr": "Une fontaine",
+        "en": "A fountain (מזרקה)"
+      },
+      {
+        "fr": "Des volets",
+        "en": "Shutters (תריסים)"
+      },
+      {
+        "fr": "Un bonnet",
+        "en": "כובע צמר"
+      },
+      {
+        "fr": "Énergie verte / Énergie écologique",
+        "en": "Green energy / Eco-friendly energy"
+      },
+      {
+        "fr": "École maternelle",
+        "en": "Nursery school (גן ילדים)"
+      },
+      {
+        "fr": "École primaire",
+        "en": "Elementary school (בית ספר יסודי)"
+      },
+      {
+        "fr": "Réviser",
+        "en": "To study, to review"
+      },
+      {
+        "fr": "Courtier en bourse",
+        "en": "Stock broker"
+      },
+      {
+        "fr": "Physicien",
+        "en": "פיזיקאי"
+      },
+      {
+        "fr": "Je ne suis pas de bonne humeur aujourd'hui.",
+        "en": "I'm not in a good mood today."
+      },
+      {
+        "fr": "J'ai perdu mon sens de l'humour.",
+        "en": "I've lost my sense of humor."
+      }
     ]
   },
   "Aurelia_Lessons": {
