@@ -2537,6 +2537,68 @@ const VOCAB_DATA = {
         "fr": "J'ai perdu mon sens de l'humour.",
         "en": "I've lost my sense of humor."
       }
+    ],
+    "Alice_Lessons/Alice_Lesson_40.txt": [
+      {
+        "fr": "Faire la collection de / collectionner",
+        "en": "To Collect"
+      },
+      {
+        "fr": "Je faisais la collection de serviettes en papier",
+        "en": "I used to collect paper napkins."
+      },
+      {
+        "fr": "Je collectionnais les coquillages.",
+        "en": "I used to collect seashells."
+      },
+      {
+        "fr": "Un coquillage",
+        "en": "A seashell"
+      },
+      {
+        "fr": "Un coeur brisé",
+        "en": "A broken heart"
+      },
+      {
+        "fr": "Un petit copain",
+        "en": "A boyfriend"
+      },
+      {
+        "fr": "Une petite copaine",
+        "en": "A girlfriend"
+      },
+      {
+        "fr": "Il est nul",
+        "en": "He sucks; he is terrible"
+      },
+      {
+        "fr": "La grande muraille de Chine",
+        "en": "The Great Wall of China"
+      },
+      {
+        "fr": "Des remontées mécaniques",
+        "en": "Ski lifts"
+      },
+      {
+        "fr": "Un téléphérique",
+        "en": "A cable car"
+      },
+      {
+        "fr": "Des abonnés",
+        "en": "Subscribers"
+      },
+      {
+        "fr": "Reconquérir",
+        "en": "Reconquer (להשיג בחזרה, לכבוש מחדש)"
+      },
+      {
+        "fr": "Embaucher",
+        "en": "To hire"
+      },
+      {
+        "fr": "Autant que",
+        "en": "As much as"
+      }
     ]
   },
   "Aurelia_Lessons": {
