@@ -48,6 +48,16 @@
       color: #2d3748;
     }
 
+    input[type="number"] {
+      padding: 9px 10px;
+      border-radius: 8px;
+      border: 1px solid #cbd5e0;
+      font-size: 0.95rem;
+      background: white;
+      width: 70px;
+      color: #2d3748;
+    }
+
     .btn {
       padding: 9px 12px;
       border-radius: 8px;
@@ -216,6 +226,28 @@
 
     .btn:disabled { opacity: 0.45; cursor: not-allowed; }
 
+    /* ── Mode selector ── */
+    .mode-selector {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+    }
+
+    .mode-selector label {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      font-size: 0.95rem;
+      color: #2d3748;
+    }
+
+    .mode-selector input[type="radio"] {
+      cursor: pointer;
+    }
+
     /* ── Words table ── */
     #wordsPanel {
       width: 100%;
@@ -270,13 +302,26 @@
 
   <h1>French Practice</h1>
 
+  <!-- Mode selector -->
+  <div class="mode-selector">
+    <label><input type="radio" name="mode" value="set" checked onchange="updateMode()"> Words from set</label>
+    <label><input type="radio" name="mode" value="random" onchange="updateMode()"> Random words</label>
+  </div>
+
   <!-- Lesson selector + start -->
   <div class="controls">
-    <select id="categorySelect"></select>
-    <select id="lessonSelect"></select>
-    <span id="wordCount" style="font-size:0.85rem;color:#718096;white-space:nowrap;"></span>
-    <button id="startBtn" class="btn btn-primary" onclick="startSession()" title="Start"><i data-lucide="play"></i></button>
-    <button id="displayWordsBtn" class="btn btn-secondary" onclick="displayWords()" disabled title="Display words"><i data-lucide="list"></i></button>
+    <div id="setControls" style="display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:center;">
+      <select id="categorySelect"></select>
+      <select id="lessonSelect"></select>
+      <span id="wordCount" style="font-size:0.85rem;color:#718096;white-space:nowrap;"></span>
+      <button id="startBtn" class="btn btn-primary" onclick="startSession()" title="Start"><i data-lucide="play"></i></button>
+      <button id="displayWordsBtn" class="btn btn-primary" onclick="displayWords()" disabled title="Display words"><i data-lucide="list"></i></button>
+    </div>
+    <div id="randomControls" class="hidden" style="display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:center;">
+      <input type="number" id="randomCount" min="1" value="6" title="Number of random words">
+      <button id="randomBtn" class="btn btn-primary" onclick="startRandomSession()" title="Random words practice"><i data-lucide="shuffle"></i></button>
+      <button id="randomDisplayWordsBtn" class="btn btn-primary" onclick="displayRandomWords()" disabled title="Display words"><i data-lucide="list"></i></button>
+    </div>
   </div>
 
   <!-- Words table panel -->
@@ -312,7 +357,7 @@
     <div class="score-pct" id="scorePct"></div>
     <p class="score-detail" id="scoreDetail"></p>
     <div class="result-buttons">
-      <button class="btn btn-primary" onclick="startSession()" title="Play again"><i data-lucide="rotate-ccw"></i></button>
+      <button class="btn btn-primary" onclick="replaySession()" title="Play again"><i data-lucide="rotate-ccw"></i></button>
     </div>
   </div>
 
@@ -320,6 +365,8 @@
     const GROUP_SIZE = 6;
 
     let allCards = [];
+    let lastSessionFn = null;
+    let lastRandomCards = null;
     let groups = [];
     let groupIndex = 0;
     let totalMatched = 0;
@@ -360,6 +407,17 @@
       sel.selectedIndex = files.length - 1;
     }
 
+    function updateMode() {
+      const mode = document.querySelector('input[name="mode"]:checked').value;
+      document.getElementById('setControls').classList.toggle('hidden', mode !== 'set');
+      document.getElementById('randomControls').classList.toggle('hidden', mode !== 'random');
+      document.getElementById('wordsPanel').classList.add('hidden');
+      document.getElementById('practiceArea').classList.add('hidden');
+      document.getElementById('resultScreen').classList.add('hidden');
+      lastRandomCards = null;
+      document.getElementById('randomDisplayWordsBtn').disabled = true;
+    }
+
     function init() {
       const categories = Object.keys(VOCAB_DATA);
 
@@ -398,10 +456,48 @@
     // ── Session ───────────────────────────────────────────────────────────────
 
     function startSession() {
-      document.getElementById('displayWordsBtn').disabled = true;
-      document.getElementById('wordsPanel').classList.add('hidden');
       const name = document.getElementById('lessonSelect').value;
-      allCards = shuffle([...getPairs(name)]);
+      lastSessionFn = startSession;
+      startSessionWithCards(getPairs(name));
+    }
+
+    function replaySession() {
+      (lastSessionFn || startSession)();
+    }
+
+    function getAllPairsDeduped() {
+      const seen = new Set();
+      const result = [];
+      Object.keys(VOCAB_DATA).forEach(category => {
+        Object.values(VOCAB_DATA[category]).forEach(pairs => {
+          pairs.forEach(card => {
+            if (!seen.has(card.fr)) {
+              seen.add(card.fr);
+              result.push(card);
+            }
+          });
+        });
+      });
+      return result;
+    }
+
+    function startRandomSession() {
+      const input = document.getElementById('randomCount');
+      const pool = getAllPairsDeduped();
+      let count = parseInt(input.value, 10);
+      if (!Number.isFinite(count) || count < 1) count = 1;
+      count = Math.min(count, pool.length);
+      input.value = count;
+      lastSessionFn = startRandomSession;
+      lastRandomCards = shuffle([...pool]).slice(0, count);
+      startSessionWithCards(lastRandomCards);
+    }
+
+    function startSessionWithCards(cards) {
+      document.getElementById('displayWordsBtn').disabled = true;
+      document.getElementById('randomDisplayWordsBtn').disabled = true;
+      document.getElementById('wordsPanel').classList.add('hidden');
+      allCards = shuffle([...cards]);
       groups = [];
       for (let i = 0; i < allCards.length; i += GROUP_SIZE) {
         groups.push(allCards.slice(i, i + GROUP_SIZE));
@@ -540,6 +636,7 @@
     function showResult() {
       show('resultScreen');
       document.getElementById('displayWordsBtn').disabled = false;
+      document.getElementById('randomDisplayWordsBtn').disabled = false;
       const total = allCards.length;
       const accuracy = total > 0 ? Math.round((total / (total + totalErrors)) * 100) : 100;
       set('scorePct', accuracy + '%');
@@ -552,14 +649,7 @@
 
     // ── Display words ─────────────────────────────────────────────────────────
 
-    function displayWords() {
-      const panel = document.getElementById('wordsPanel');
-      if (!panel.classList.contains('hidden')) {
-        panel.classList.add('hidden');
-        return;
-      }
-      const name = document.getElementById('lessonSelect').value;
-      const cards = getPairs(name);
+    function renderWordsTable(cards) {
       const tbody = document.getElementById('wordsBody');
       tbody.innerHTML = '';
       cards.forEach(card => {
@@ -575,6 +665,27 @@
         tr.appendChild(enTd);
         tbody.appendChild(tr);
       });
+    }
+
+    function displayWords() {
+      const panel = document.getElementById('wordsPanel');
+      if (!panel.classList.contains('hidden')) {
+        panel.classList.add('hidden');
+        return;
+      }
+      const name = document.getElementById('lessonSelect').value;
+      renderWordsTable(getPairs(name));
+      panel.classList.remove('hidden');
+    }
+
+    function displayRandomWords() {
+      if (!lastRandomCards) return;
+      const panel = document.getElementById('wordsPanel');
+      if (!panel.classList.contains('hidden')) {
+        panel.classList.add('hidden');
+        return;
+      }
+      renderWordsTable(lastRandomCards);
       panel.classList.remove('hidden');
     }
 
