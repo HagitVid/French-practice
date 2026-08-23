@@ -5441,6 +5441,338 @@ const VOCAB_DATA = {
       }
     ]
   },
+  "Justine_Lessons": {
+    "Justine_Lessons/Jusine_Lesson_1.txt": [
+      {
+        "fr": "Echauffement",
+        "en": "Warm-up"
+      },
+      {
+        "fr": "L'ingénierie informatique",
+        "en": "Computer engineering"
+      },
+      {
+        "fr": "Le son",
+        "en": "The sound"
+      },
+      {
+        "fr": "Le lever du soleil",
+        "en": "Sunrise"
+      },
+      {
+        "fr": "Le coucher du soleil",
+        "en": "Sunset"
+      },
+      {
+        "fr": "Un corail",
+        "en": "A coral"
+      },
+      {
+        "fr": "Illimité",
+        "en": "Unlimited"
+      },
+      {
+        "fr": "Ensuite",
+        "en": "Then, afterwards"
+      },
+      {
+        "fr": "Séjourner",
+        "en": "To stay, to reside"
+      },
+      {
+        "fr": "Réviser",
+        "en": "To study"
+      },
+      {
+        "fr": "Recevoir",
+        "en": "לארח"
+      },
+      {
+        "fr": "Convaincre",
+        "en": "To convince"
+      }
+    ],
+    "Justine_Lessons/Jusine_Lesson_2.txt": [
+      {
+        "fr": "Une piscine municipale",
+        "en": "A public swimming pool"
+      },
+      {
+        "fr": "Une piscine privée",
+        "en": "A private swimming pool"
+      },
+      {
+        "fr": "Des personnes nagent.",
+        "en": "People are swimming."
+      },
+      {
+        "fr": "Des personnes font de la natation.",
+        "en": "People are swimming."
+      },
+      {
+        "fr": "De l’aquagym",
+        "en": "Water aerobics"
+      },
+      {
+        "fr": "La natation synchronisée",
+        "en": "Synchronized swimming"
+      },
+      {
+        "fr": "Les Jeux Olympiques",
+        "en": "The Olympic Games"
+      },
+      {
+        "fr": "Rafraîchir",
+        "en": "To refresh"
+      },
+      {
+        "fr": "L’accueil, la réception. le secrétariat",
+        "en": "The reception desk"
+      },
+      {
+        "fr": "Un vestiaire",
+        "en": "A changing room"
+      },
+      {
+        "fr": "Se changer",
+        "en": "To change cloths"
+      },
+      {
+        "fr": "Un mailot de bain",
+        "en": "A swimming suit"
+      },
+      {
+        "fr": "Un bonnet de bain",
+        "en": "A swimming cap"
+      },
+      {
+        "fr": "S’entraîner",
+        "en": "To practice"
+      },
+      {
+        "fr": "Enseigner",
+        "en": "To teach"
+      },
+      {
+        "fr": "Le niveau",
+        "en": "Level"
+      },
+      {
+        "fr": "Débutant",
+        "en": "Beginner"
+      },
+      {
+        "fr": "Intermédiaire",
+        "en": "Intermediate"
+      },
+      {
+        "fr": "Avancé",
+        "en": "Advanced"
+      },
+      {
+        "fr": "Cours de natation",
+        "en": "Swimming lessons"
+      },
+      {
+        "fr": "Je me sens mal à l’aise",
+        "en": "I feel uncomfortable"
+      },
+      {
+        "fr": "Elles font de l’aquagym.",
+        "en": "They do water aerobics."
+      },
+      {
+        "fr": "Je voudrais m’entraîner au pilates.",
+        "en": "I would like to practice Pilates."
+      },
+      {
+        "fr": "Quand est-ce qu’il y a des leçons pour les débutants ?",
+        "en": "When are there lessons for beginners?"
+      },
+      {
+        "fr": "On a des leçons pour les débutants, pour les intermédiaires et pour les avancés.",
+        "en": "We have lessons for beginners, intermediate, and advanced students."
+      },
+      {
+        "fr": "Je crois que cela vous convient.",
+        "en": "I think that suits you."
+      },
+      {
+        "fr": "Combien coûte chaque leçon ?",
+        "en": "How much does each lesson cost?"
+      }
+    ],
+    "Justine_Lessons/Jusine_Lesson_3.txt": [
+      {
+        "fr": "Souffrir",
+        "en": "To suffer, to be in pain"
+      },
+      {
+        "fr": "Tousser",
+        "en": "To cough"
+      },
+      {
+        "fr": "Éternuer",
+        "en": "To sneeze"
+      },
+      {
+        "fr": "Chuchoter",
+        "en": "To whisper"
+      },
+      {
+        "fr": "Respirer",
+        "en": "To breathe"
+      },
+      {
+        "fr": "Chut!",
+        "en": "Hush!"
+      },
+      {
+        "fr": "Atchoum!",
+        "en": "Atchoo, אפצ׳י"
+      },
+      {
+        "fr": "Se moucher",
+        "en": "To blow the nose"
+      },
+      {
+        "fr": "S’allonger",
+        "en": "To lie down"
+      },
+      {
+        "fr": "Se dépêcher",
+        "en": "To hurry up"
+      },
+      {
+        "fr": "Un mouchoir",
+        "en": "A tissue, a handkerchief"
+      },
+      {
+        "fr": "Un médicament",
+        "en": "A medicine"
+      },
+      {
+        "fr": "Un médecin, un docteur",
+        "en": "A doctor"
+      },
+      {
+        "fr": "Un psychologue",
+        "en": "A psychologist"
+      },
+      {
+        "fr": "Un kinésithérapeute",
+        "en": "A physiotherapist"
+      },
+      {
+        "fr": "Le chauffage",
+        "en": "Heating (חימום)"
+      },
+      {
+        "fr": "Une clim",
+        "en": "An air conditioner"
+      },
+      {
+        "fr": "Une infusion de gingembre",
+        "en": "חליטת ג׳ינג׳ר"
+      },
+      {
+        "fr": "Un bonnet",
+        "en": "Beanie (כובע צמר)"
+      },
+      {
+        "fr": "Une glace",
+        "en": "An icecream"
+      },
+      {
+        "fr": "La nausée",
+        "en": "Nausea"
+      },
+      {
+        "fr": "Elle a mal au ventre",
+        "en": "She has stomachache"
+      },
+      {
+        "fr": "Elle a mal à la tête",
+        "en": "She has a headache"
+      },
+      {
+        "fr": "Elle a mal à la gorge",
+        "en": "She has a sore throat"
+      },
+      {
+        "fr": "Elle porte une écharpe",
+        "en": "he wears a scarf"
+      },
+      {
+        "fr": "Ils sont malades",
+        "en": "They are sick"
+      },
+      {
+        "fr": "Ils ont la grippe",
+        "en": "They have the flu"
+      },
+      {
+        "fr": "Ils se mouchent dans un mouchoir",
+        "en": "They blow their noses in a handkerchief"
+      },
+      {
+        "fr": "Ils éternuent",
+        "en": "They sneeze"
+      },
+      {
+        "fr": "Je suis enrhumée",
+        "en": "I have a cold (אני מצוננת)"
+      },
+      {
+        "fr": "J’ai la nausée",
+        "en": "I feel nauseous"
+      },
+      {
+        "fr": "Allume le chauffage!",
+        "en": "Turn on the heating!"
+      },
+      {
+        "fr": "Porte un bonnet!",
+        "en": "Wear a hat!"
+      },
+      {
+        "fr": "Mets ton manteau!",
+        "en": "Put on your coat!"
+      },
+      {
+        "fr": "Bois un thé chaud!",
+        "en": "Drink a hot tea!"
+      },
+      {
+        "fr": "Bois du thé!",
+        "en": "Drink hot tea!"
+      },
+      {
+        "fr": "Bois quelque chose de frais!",
+        "en": "Drink something fresh!"
+      },
+      {
+        "fr": "Sois patient!",
+        "en": "Be patient!"
+      },
+      {
+        "fr": "Attends une semaine et ça va passer!",
+        "en": "Wait a week and it will pass!"
+      },
+      {
+        "fr": "Prends un médicament contre le rhume!",
+        "en": "Take a medicine against cold!"
+      },
+      {
+        "fr": "Va chez le kinésithérapeute!",
+        "en": "Go to the therapist!"
+      },
+      {
+        "fr": "Fais du pilates!",
+        "en": "Do pilates!"
+      }
+    ]
+  },
   "Topics": {
     "Topics/Body_Parts.txt": [
       {
