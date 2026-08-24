@@ -5660,7 +5660,7 @@ const VOCAB_DATA = {
         "en": "A psychologist"
       },
       {
-        "fr": "Un kinésithérapeute",
+        "fr": "Un kinésithérapeute, un kiné",
         "en": "A physiotherapist"
       },
       {
@@ -5681,7 +5681,7 @@ const VOCAB_DATA = {
       },
       {
         "fr": "Une glace",
-        "en": "An icecream"
+        "en": "An ice cream"
       },
       {
         "fr": "La nausée",
@@ -5701,7 +5701,7 @@ const VOCAB_DATA = {
       },
       {
         "fr": "Elle porte une écharpe",
-        "en": "he wears a scarf"
+        "en": "She wears a scarf"
       },
       {
         "fr": "Ils sont malades",
@@ -5744,8 +5744,8 @@ const VOCAB_DATA = {
         "en": "Drink a hot tea!"
       },
       {
-        "fr": "Bois du thé!",
-        "en": "Drink hot tea!"
+        "fr": "Bois du thé au citron!",
+        "en": "Drink lemon tea!"
       },
       {
         "fr": "Bois quelque chose de frais!",
