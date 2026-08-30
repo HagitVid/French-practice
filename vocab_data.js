@@ -5681,7 +5681,7 @@ const VOCAB_DATA = {
       },
       {
         "fr": "Une glace",
-        "en": "An ice cream"
+        "en": "An ice-cream"
       },
       {
         "fr": "La nausée",
@@ -5770,6 +5770,92 @@ const VOCAB_DATA = {
       {
         "fr": "Fais du pilates!",
         "en": "Do pilates!"
+      }
+    ],
+    "Justine_Lessons/Jusine_Lesson_4.txt": [
+      {
+        "fr": "Ça te dit?",
+        "en": "Does that sound good to you?"
+      },
+      {
+        "fr": "Ça te dit de venir avec moi?",
+        "en": "Do you want to come with me?"
+      },
+      {
+        "fr": "Ça t’intéresse?",
+        "en": "Are you interested?"
+      },
+      {
+        "fr": "Qu’est-ce que tu en dis?",
+        "en": "What do you think about it?"
+      },
+      {
+        "fr": "Bronzer",
+        "en": "To get a tan"
+      },
+      {
+        "fr": "Allons dans les deux endroits!",
+        "en": "Let's go to both places!"
+      },
+      {
+        "fr": "Allons-y!",
+        "en": "Let's go!"
+      },
+      {
+        "fr": "Épanouissant",
+        "en": "Fulfilling"
+      },
+      {
+        "fr": "Maintenant, je voudrais changer de carrière pour faire quelque chose d’épanouissant.",
+        "en": "Now, I would like to change careers to do something fulfilling."
+      },
+      {
+        "fr": "Je suis épanoui.",
+        "en": "I’m fulfilled, (אני מסופק)"
+      },
+      {
+        "fr": "Quelle carrière est-ce que tu voudrais choisir?",
+        "en": "Which career would you like to choose?"
+      },
+      {
+        "fr": "Je voudrais ton opinion et tes suggestions s’il te plaît.",
+        "en": "I would like your opinion and suggestions please."
+      },
+      {
+        "fr": "Prends ton temps!",
+        "en": "Take your time!"
+      },
+      {
+        "fr": "Prends le temps de réfléchir!",
+        "en": "Take time to think!"
+      },
+      {
+        "fr": "J’aime le son de la langue.",
+        "en": "I like the sound of the language."
+      },
+      {
+        "fr": "Des vieilles chansons,  des anciennes chansons",
+        "en": "Old songs"
+      },
+      {
+        "fr": "Je fais tout le ménage !",
+        "en": "I do all the cleaning!"
+      },
+      {
+        "fr": "Vous ne faites rien !",
+        "en": "You're doing nothing!"
+      },
+      {
+        "fr": "J’ai fait les courses hier.",
+        "en": "I did the shopping yesterday."
+      },
+      {
+        "fr": "C’est moi qui ai fait toute la vaisselle !",
+        "en": "It's me that did all the dishes."
+      },
+      {
+        "fr": "C’est un compromis.",
+        "en": "It's a compromise."
       }
     ]
   },
