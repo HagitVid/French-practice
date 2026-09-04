@@ -5857,6 +5857,160 @@ const VOCAB_DATA = {
         "fr": "C’est un compromis.",
         "en": "It's a compromise."
       }
+    ],
+    "Justine_Lessons/Jusine_Lesson_5.txt": [
+      {
+        "fr": "Un film dramatique",
+        "en": "A dramatic film"
+      },
+      {
+        "fr": "Un film policier",
+        "en": "A police movie"
+      },
+      {
+        "fr": "Un thriller",
+        "en": "A thriller"
+      },
+      {
+        "fr": "Une comédie romantique",
+        "en": "A romantic comedy"
+      },
+      {
+        "fr": "La science fiction",
+        "en": "Science fiction"
+      },
+      {
+        "fr": "Une conférence",
+        "en": "A lecture (הרצאה)"
+      },
+      {
+        "fr": "Projeter",
+        "en": "להקרין"
+      },
+      {
+        "fr": "Un rendez-vous galant, Un rendez-vous romantique",
+        "en": "A romantic date"
+      },
+      {
+        "fr": "Compte Instagram",
+        "en": "Instagram account"
+      },
+      {
+        "fr": "Sympathique, sympa",
+        "en": "Nice"
+      },
+      {
+        "fr": "les cheveux ondulés",
+        "en": "שיער גלי"
+      },
+      {
+        "fr": "Costaud, (fort et musclé)",
+        "en": "Strong (חזק, שרירי)"
+      },
+      {
+        "fr": "Grand / grande VS petit / petite",
+        "en": "Tall VS short"
+      },
+      {
+        "fr": "Gros / grosse VS mince",
+        "en": "Big, fat VS thin"
+      },
+      {
+        "fr": "Passer",
+        "en": "To pass, to go"
+      },
+      {
+        "fr": "TGV (train à grande vitesse)",
+        "en": "High speed train"
+      },
+      {
+        "fr": "Un logement",
+        "en": "Accommodation (דיור)"
+      },
+      {
+        "fr": "Airbnb",
+        "en": "Airbnb"
+      },
+      {
+        "fr": "Chambre d’hôte",
+        "en": "צימר"
+      },
+      {
+        "fr": "Le cinéma projette un film",
+        "en": "The cinema is showing a film"
+      },
+      {
+        "fr": "La femme est rousse",
+        "en": "The woman is a redhead"
+      },
+      {
+        "fr": "Elle a les cheveux roux",
+        "en": "She has red hair"
+      },
+      {
+        "fr": "Elle a les cheveux boucles",
+        "en": "She has curly hair"
+      },
+      {
+        "fr": "Elle a les cheveux ondulés",
+        "en": "She has wavy hair (יש לה שיער גלי)"
+      },
+      {
+        "fr": "Ils se regardent avec amour",
+        "en": "They look at each other with love"
+      },
+      {
+        "fr": "Ils ont l’air amoureux",
+        "en": "They look in love"
+      },
+      {
+        "fr": "Samedi dernier, j’ai emmené mes petits-enfants à la piscine",
+        "en": "Last Saturday, I took my grandchildren to the swimming pool"
+      },
+      {
+        "fr": "Le mois dernier, j’ai offert un cadeau à mes amis",
+        "en": "Last month, I gave a gift to my friends"
+      },
+      {
+        "fr": "Hier, je suis allée à la pharmacie",
+        "en": "Yesterday, I went to the pharmacy"
+      },
+      {
+        "fr": "Hier, je suis passée à la pharmacie",
+        "en": "Yesterday, I went to the pharmacy"
+      },
+      {
+        "fr": "Elles ont fait leurs valises",
+        "en": "They packed their suitcases"
+      },
+      {
+        "fr": "Elles se sont promenées dans la forêt",
+        "en": "They walked in the forest"
+      },
+      {
+        "fr": "Elles ont marché dans la forêt",
+        "en": "They walked in the forest"
+      },
+      {
+        "fr": "Elles ont fait pique-nique",
+        "en": "They had a picnic"
+      },
+      {
+        "fr": "Elles ont admiré la vue",
+        "en": "They admired the view"
+      },
+      {
+        "fr": "Ensuite, elles ont pris un café et des gâteaux dans un café",
+        "en": "Then they had coffee and cakes in a café"
+      },
+      {
+        "fr": "Elles ont fait du shopping",
+        "en": "They went shopping"
+      },
+      {
+        "fr": "Elles se sont couchées",
+        "en": "They went to bed"
+      }
     ]
   },
   "Topics": {
