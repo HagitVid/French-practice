@@ -6011,6 +6011,160 @@ const VOCAB_DATA = {
         "fr": "Elles se sont couchées",
         "en": "They went to bed"
       }
+    ],
+    "Justine_Lessons/Jusine_Lesson_6.txt": [
+      {
+        "fr": "Boulettes de viande",
+        "en": "Meatballs"
+      },
+      {
+        "fr": "Bénir",
+        "en": "To bless"
+      },
+      {
+        "fr": "Douce année",
+        "en": "Sweet year"
+      },
+      {
+        "fr": "Retrouver",
+        "en": "לפגוש"
+      },
+      {
+        "fr": "Avoir l’air",
+        "en": "To look like"
+      },
+      {
+        "fr": "Enseigner",
+        "en": "To teach"
+      },
+      {
+        "fr": "Se renseigner",
+        "en": "To find out"
+      },
+      {
+        "fr": "S’informer",
+        "en": "To find out"
+      },
+      {
+        "fr": "S’inscrire",
+        "en": "To register"
+      },
+      {
+        "fr": "Suivre un cours",
+        "en": "To take a course"
+      },
+      {
+        "fr": "Rater",
+        "en": "To miss (להחמיץ, לפספס"
+      },
+      {
+        "fr": "Remettre",
+        "en": "Donner"
+      },
+      {
+        "fr": "Débordé",
+        "en": "עסוק מאד, עמוס"
+      },
+      {
+        "fr": "Un cours magistral",
+        "en": "שיעור הרצאה באוניברסיטה"
+      },
+      {
+        "fr": "Un cours pratique",
+        "en": "שיעור תרגול באוניברסיט"
+      },
+      {
+        "fr": "Un amphithéâtre",
+        "en": "אולם הרצאות (Une salle dans laquelle on fait les cours magistraux)"
+      },
+      {
+        "fr": "Une cérémonie de remise des diplômes",
+        "en": "טקס סיום, טקס קבלת התעודה"
+      },
+      {
+        "fr": "Un diplôme",
+        "en": "A diploma (תעודה, תואר)"
+      },
+      {
+        "fr": "Un Secrétariat",
+        "en": "מזכירות"
+      },
+      {
+        "fr": "Une inscription",
+        "en": "A registration (הרשמה)"
+      },
+      {
+        "fr": "La fac - La faculté",
+        "en": "הפקולטה"
+      },
+      {
+        "fr": "Une BU (une bibliothèque universitaire)",
+        "en": "A university library"
+      },
+      {
+        "fr": "Un restau U (un restaurant universitaire)",
+        "en": "A university restaurant"
+      },
+      {
+        "fr": "La rentrée",
+        "en": "Back to school (תחילת הלימודים)"
+      },
+      {
+        "fr": "Un exposé",
+        "en": "A presentation"
+      },
+      {
+        "fr": "La jurisprudence",
+        "en": "Jurisprudence (משפטים)"
+      },
+      {
+        "fr": "En tant que",
+        "en": "As a"
+      },
+      {
+        "fr": "On offre un cadeau",
+        "en": "We give a gift"
+      },
+      {
+        "fr": "On remet un diplôme à un étudiant.",
+        "en": "A diploma is awarded to a student."
+      },
+      {
+        "fr": "J’ai acheté une nouvelle voiture, le magasin me remet les clés",
+        "en": "I bought a new car, the store gave me the keys"
+      },
+      {
+        "fr": "J'ai pris un cours pour enseigner l'anglais en tant que langue seconde/étrangère",
+        "en": "I took a course to teach English as a second/foreign language."
+      },
+      {
+        "fr": "Ça a l’air sympa / bien",
+        "en": "It looks nice"
+      },
+      {
+        "fr": "Je viens de finir mon livre",
+        "en": "I just finished my book"
+      },
+      {
+        "fr": "Elle s’endort sur son ordinateur",
+        "en": "he falls asleep on her computer"
+      },
+      {
+        "fr": "Elle s'est endormie sur son ordinateur",
+        "en": "She fell asleep on her computer"
+      },
+      {
+        "fr": "Le café coule sur la table",
+        "en": "The coffee flows on the table"
+      },
+      {
+        "fr": "Elle est débordée",
+        "en": "She is very busy"
+      },
+      {
+        "fr": "J’ai raté un cours",
+        "en": "I missed a class"
+      }
     ]
   },
   "Topics": {
