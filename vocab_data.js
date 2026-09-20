@@ -6078,6 +6078,10 @@ const VOCAB_DATA = {
         "en": "אולם הרצאות (Une salle dans laquelle on fait les cours magistraux)"
       },
       {
+        "fr": "Une remise des diplômes",
+        "en": "טקס סיום, טקס קבלת התעודה"
+      },
+      {
         "fr": "Une cérémonie de remise des diplômes",
         "en": "טקס סיום, טקס קבלת התעודה"
       },
@@ -6164,6 +6168,116 @@ const VOCAB_DATA = {
       {
         "fr": "J’ai raté un cours",
         "en": "I missed a class"
+      }
+    ],
+    "Justine_Lessons/Jusine_Lesson_7.txt": [
+      {
+        "fr": "Vive",
+        "en": "Long live, cheers"
+      },
+      {
+        "fr": "Erasmus",
+        "en": "Un programme d’échanges entre étudiants d’Europe"
+      },
+      {
+        "fr": "Les credits",
+        "en": "נקודות זכות"
+      },
+      {
+        "fr": "il me paraît que",
+        "en": "It seems to me that"
+      },
+      {
+        "fr": "Plus âgé",
+        "en": "Older"
+      },
+      {
+        "fr": "Autoritaire",
+        "en": "סמכותי"
+      },
+      {
+        "fr": "Brillant",
+        "en": "Brilliant (חכם, מבריק)"
+      },
+      {
+        "fr": "Une sacoche",
+        "en": "A briefcase (תיק מסמכים)"
+      },
+      {
+        "fr": "Les Pays-Bas",
+        "en": "The Netherlands"
+      },
+      {
+        "fr": "Un moulin à vent",
+        "en": "A windmill"
+      },
+      {
+        "fr": "Un avis",
+        "en": "Une opinion"
+      },
+      {
+        "fr": "En profondeur",
+        "en": "In depth (בצורה מעמיקה)"
+      },
+      {
+        "fr": "Conseiller",
+        "en": "To advise"
+      },
+      {
+        "fr": "Consulter",
+        "en": "To consult, to ask for advice"
+      },
+      {
+        "fr": "Améliorer",
+        "en": "To improve"
+      },
+      {
+        "fr": "Approfondir",
+        "en": "To deepen, to expand (להעמיק)"
+      },
+      {
+        "fr": "Enrichir",
+        "en": "To enrich (להעשיר)"
+      },
+      {
+        "fr": "Emprunter",
+        "en": "To borrow"
+      },
+      {
+        "fr": "Prêter",
+        "en": "To lend"
+      },
+      {
+        "fr": "J’ai vu mes amis.",
+        "en": "I saw my friends"
+      },
+      {
+        "fr": "J'ai retrouvé mes amis",
+        "en": "I met my friends"
+      },
+      {
+        "fr": "C’était il y a longtemps !",
+        "en": "That was a long time ago"
+      },
+      {
+        "fr": "C’est fait pour",
+        "en": "That is what it’s for, that’s what it is made for"
+      },
+      {
+        "fr": "Étudier quelque chose en profondeur",
+        "en": "Study something in depth"
+      },
+      {
+        "fr": "Ça fait longtemps",
+        "en": "It has been a long time, it has been a while"
+      },
+      {
+        "fr": "Il a l’air autoritaire",
+        "en": "הוא נראה סמכותי"
+      },
+      {
+        "fr": "On peut se faire de nouveaux amis",
+        "en": "We can make new friends"
       }
     ]
   },
