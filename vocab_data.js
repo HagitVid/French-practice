@@ -6279,6 +6279,72 @@ const VOCAB_DATA = {
         "fr": "On peut se faire de nouveaux amis",
         "en": "We can make new friends"
       }
+    ],
+    "Justine_Lessons/Jusine_Lesson_8.txt": [
+      {
+        "fr": "Des jeu de société",
+        "en": "Board games"
+      },
+      {
+        "fr": "Jeûner",
+        "en": "To fast"
+      },
+      {
+        "fr": "Convenir",
+        "en": "To suit, to be suitable"
+      },
+      {
+        "fr": "Écouter aux portes",
+        "en": "To eavesdrop (לצותת)"
+      },
+      {
+        "fr": "Obtenir",
+        "en": "To get, to obtain (לקבל, להשיג)"
+      },
+      {
+        "fr": "Décrire",
+        "en": "To describe"
+      },
+      {
+        "fr": "Les grandes lignes",
+        "en": "The main points, the highlights (עיקרי הדברים)"
+      },
+      {
+        "fr": "En gros",
+        "en": "Dans les grandes lignes (באופן כללי)"
+      },
+      {
+        "fr": "En détail",
+        "en": "In detail (בפירוט)"
+      },
+      {
+        "fr": "A priori",
+        "en": "At first glance (בתחילה, מלכתחילה)"
+      },
+      {
+        "fr": "Des fonds, de budget",
+        "en": "Funds, budget (מימון, תקציב)"
+      },
+      {
+        "fr": "Dans l’air du temps",
+        "en": "à la mode, In the spirit of the time (ברוח התקופה)"
+      },
+      {
+        "fr": "Une perte de temps",
+        "en": "A waste of time"
+      },
+      {
+        "fr": "Expliquer un projet dans les grandes lignes ou, au contraire, en  détail",
+        "en": "Explain a project in general or, on the contrary, in detail"
+      },
+      {
+        "fr": "C’est dans l’air du temps",
+        "en": "זה ברוח התקופה"
+      },
+      {
+        "fr": "C’était une perte de temps",
+        "en": "It was a waste of time"
+      }
     ]
   },
   "Topics": {
