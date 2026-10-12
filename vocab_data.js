@@ -6345,6 +6345,76 @@ const VOCAB_DATA = {
         "fr": "C’était une perte de temps",
         "en": "It was a waste of time"
       }
+    ],
+    "Justine_Lessons/Jusine_Lesson_9.txt": [
+      {
+        "fr": "Mal fait",
+        "en": "Badly done, poorly done"
+      },
+      {
+        "fr": "Bien fait",
+        "en": "Well done"
+      },
+      {
+        "fr": "Bonheur",
+        "en": "Happiness"
+      },
+      {
+        "fr": "Débordé",
+        "en": "Très occupé"
+      },
+      {
+        "fr": "Abandonner",
+        "en": "To give up"
+      },
+      {
+        "fr": "Réviser",
+        "en": "Étudier avant les examens, avant une leçon (לחזור על החומר, ללמוד למבחן)"
+      },
+      {
+        "fr": "Rater une leçon",
+        "en": "To miss a lesson"
+      },
+      {
+        "fr": "Passer un examen",
+        "en": "To take a test (לעשות מבחן)"
+      },
+      {
+        "fr": "Réussir un examen",
+        "en": "To pass a test (להצליח במבחן)"
+      },
+      {
+        "fr": "Échouer à un examen",
+        "en": "To fail an exam (להיכשל במבחן)"
+      },
+      {
+        "fr": "Je n'ai rien fait",
+        "en": "I didn't do anything"
+      },
+      {
+        "fr": "La leçon m'a manqué",
+        "en": "השיעור חסר לי"
+      },
+      {
+        "fr": "J'ai manqué la leçon",
+        "en": "החמצתי את השיעור"
+      },
+      {
+        "fr": "Chacun peut trouver son bonheur en Grèce",
+        "en": "Everyone can find his happiness in Greece"
+      },
+      {
+        "fr": "Un livre intitulé…",
+        "en": "A book titled…"
+      },
+      {
+        "fr": "Demain, je vais passer mon examen de français. J’espère que je vais réussir",
+        "en": "Tomorrow, I will take my French exam. I hope I will succeed"
+      },
+      {
+        "fr": "Je sais que c’est difficile mais n’abandonne pas",
+        "en": "I know it's hard but don't give up"
+      }
     ]
   },
   "Topics": {
