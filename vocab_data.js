@@ -5566,7 +5566,7 @@ const VOCAB_DATA = {
         "en": "To be amazed"
       },
       {
-        "fr": "Être fier / fière de",
+        "fr": "Être fier de / Être fière de",
         "en": "To be proud of"
       },
       {
@@ -5618,7 +5618,7 @@ const VOCAB_DATA = {
         "en": "A part from, except"
       },
       {
-        "fr": "On va faire des révisions",
+        "fr": "On va réviser / On va faire des révisions",
         "en": "אנחנו הולכים לחזור על החומר"
       },
       {
