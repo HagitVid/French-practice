@@ -5492,6 +5492,156 @@ const VOCAB_DATA = {
         "en": "To convince"
       }
     ],
+    "Justine_Lessons/Jusine_Lesson_10.txt": [
+      {
+        "fr": "Un amphithéâtre",
+        "en": "אולם הרצאות (Une salle dans laquelle on fait les cours magistraux)"
+      },
+      {
+        "fr": "Un panneau de signalisation",
+        "en": "A road sign"
+      },
+      {
+        "fr": "Un feu tricolore",
+        "en": "A traffic light"
+      },
+      {
+        "fr": "Un lampadaire",
+        "en": "A street lamp"
+      },
+      {
+        "fr": "Une photo en couleur",
+        "en": "A colored photo"
+      },
+      {
+        "fr": "Une photo en noir et blanc",
+        "en": "A black and white photo"
+      },
+      {
+        "fr": "Des gratte-ciel",
+        "en": "Skyscrapers (גורדי שחקים)"
+      },
+      {
+        "fr": "Palmier",
+        "en": "עץ דקל"
+      },
+      {
+        "fr": "Un côté magique",
+        "en": "A magical side"
+      },
+      {
+        "fr": "La mairie, l’hôtel de ville",
+        "en": "The town hall"
+      },
+      {
+        "fr": "Le maire de la ville",
+        "en": "The mayor of the city"
+      },
+      {
+        "fr": "Habitant de la ville",
+        "en": "City resident (תושב העיר)"
+      },
+      {
+        "fr": "Une Inauguration, une overture",
+        "en": "An opening"
+      },
+      {
+        "fr": "Une antiquité",
+        "en": "An antique (חפץ עתיק)"
+      },
+      {
+        "fr": "Confier à",
+        "en": "To entrust with (להפקיד בידי)"
+      },
+      {
+        "fr": "Être confié à",
+        "en": "To be entrusted with, to be assigned to (להיות מופקד על)"
+      },
+      {
+        "fr": "Être éclairé",
+        "en": "To be lit (להיות מואר)"
+      },
+      {
+        "fr": "Être émerveillé",
+        "en": "To be amazed"
+      },
+      {
+        "fr": "Être fier / fière de",
+        "en": "To be proud of"
+      },
+      {
+        "fr": "Gratter",
+        "en": "To scratch"
+      },
+      {
+        "fr": "Inagurer",
+        "en": "To open, to launch (לפתוח, להשיק, לחנוך)"
+      },
+      {
+        "fr": "Rénover",
+        "en": "To renovate (לשפץ)"
+      },
+      {
+        "fr": "Restaurer",
+        "en": "To restore (לשחזר, לשפץ)"
+      },
+      {
+        "fr": "Animé",
+        "en": "Lively, busy (שוקק, תוסס, עמוס)"
+      },
+      {
+        "fr": "Désertique",
+        "en": "Desert-like (מדברי)"
+      },
+      {
+        "fr": "Émerveillé",
+        "en": "Amazed"
+      },
+      {
+        "fr": "Merveilleux",
+        "en": "Amazing, marvelous"
+      },
+      {
+        "fr": "Superbe",
+        "en": "Amazing, great"
+      },
+      {
+        "fr": "Complètement, entièrement",
+        "en": "Completely, entirely"
+      },
+      {
+        "fr": "Partiellement",
+        "en": "Partially"
+      },
+      {
+        "fr": "À part",
+        "en": "A part from, except"
+      },
+      {
+        "fr": "On va faire des révisions",
+        "en": "אנחנו הולכים לחזור על החומר"
+      },
+      {
+        "fr": "C’est très éclairé",
+        "en": "It’s very bright"
+      },
+      {
+        "fr": "Je n’aime ni l’une ni l’autre",
+        "en": "I don’t like either of them"
+      },
+      {
+        "fr": "Je suis émerveillée par ta beauté",
+        "en": "I am amazed by your beauty"
+      },
+      {
+        "fr": "La rénovation a été confiée à des entreprises de la région",
+        "en": "The renovation was entrusted to companies in the region"
+      },
+      {
+        "fr": "La salle des sculptures antiques est éclairée par la lumière du jour",
+        "en": "The room of ancient sculptures is lit by daylight."
+      }
+    ],
     "Justine_Lessons/Jusine_Lesson_2.txt": [
       {
         "fr": "Une piscine municipale",
