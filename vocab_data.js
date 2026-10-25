@@ -5642,6 +5642,80 @@ const VOCAB_DATA = {
         "en": "The room of ancient sculptures is lit by daylight."
       }
     ],
+    "Justine_Lessons/Jusine_Lesson_11.txt": [
+      {
+        "fr": "Une restauration / Une rénovation",
+        "en": "שיפוץ"
+      },
+      {
+        "fr": "La reception / L’accueil",
+        "en": "חדר קבלת הפנים, משרד הקבלה"
+      },
+      {
+        "fr": "L’accueil de l’hôtel de ville",
+        "en": "The reception of the city hall"
+      },
+      {
+        "fr": "La salle des mariages",
+        "en": "The wedding hall"
+      },
+      {
+        "fr": "Des amuse-bouches / Des petits-fours / Des apéritifs",
+        "en": "Appetizers, Petit fours"
+      },
+      {
+        "fr": "Santé!",
+        "en": "בריאות!, לחיים!"
+      },
+      {
+        "fr": "Des travaux",
+        "en": "עבודות שיפוץ"
+      },
+      {
+        "fr": "Un élève",
+        "en": "A pupil"
+      },
+      {
+        "fr": "Un étudiant",
+        "en": "A student"
+      },
+      {
+        "fr": "Achever",
+        "en": "לסיים (בד״כ עבודות, פרויקטים)"
+      },
+      {
+        "fr": "Repeindre",
+        "en": "To repaint"
+      },
+      {
+        "fr": "Trinquer",
+        "en": "To toast (לשתות לחיים)"
+      },
+      {
+        "fr": "Assez",
+        "en": "Quite (למדי, די)"
+      },
+      {
+        "fr": "Comment ça se prononce ?",
+        "en": "How do you pronounce it?"
+      },
+      {
+        "fr": "On boit du champagne et on mange des amuse-bouche.",
+        "en": "We drink champagne and eat appetizers."
+      },
+      {
+        "fr": "Des petits fours et du champagne ont été servis aux invités.",
+        "en": "Petit fours and champagne were served to the guests."
+      },
+      {
+        "fr": "Les habitants sont assez satisfaits.",
+        "en": "The inhabitants are quite satisfied."
+      },
+      {
+        "fr": "L’école a été inaugurée avec une grande fête où tous les élèves et les professeurs ont été invités.",
+        "en": "The school was inaugurated with a big party to which all the students and teachers were invited."
+      }
+    ],
     "Justine_Lessons/Jusine_Lesson_2.txt": [
       {
         "fr": "Une piscine municipale",
