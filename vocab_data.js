@@ -5680,6 +5680,10 @@ const VOCAB_DATA = {
         "en": "A student"
       },
       {
+        "fr": "Traité de Rome",
+        "en": "אמנת רומא"
+      },
+      {
         "fr": "Achever",
         "en": "לסיים (בד״כ עבודות, פרויקטים)"
       },
@@ -5714,6 +5718,108 @@ const VOCAB_DATA = {
       {
         "fr": "L’école a été inaugurée avec une grande fête où tous les élèves et les professeurs ont été invités.",
         "en": "The school was inaugurated with a big party to which all the students and teachers were invited."
+      }
+    ],
+    "Justine_Lessons/Jusine_Lesson_12.txt": [
+      {
+        "fr": "Un centre commercial",
+        "en": "A shopping center"
+      },
+      {
+        "fr": "Une ferme",
+        "en": "A farm"
+      },
+      {
+        "fr": "Un marché",
+        "en": "A market (שוק)"
+      },
+      {
+        "fr": "Un paysan",
+        "en": "A farmer"
+      },
+      {
+        "fr": "Un parking",
+        "en": "A parking lot"
+      },
+      {
+        "fr": "Un passage piéton",
+        "en": "מעבר חצייה להולכי רגל"
+      },
+      {
+        "fr": "Un œuf, des œufs",
+        "en": "An egg, eggs"
+      },
+      {
+        "fr": "Un boeuf, des boeufs",
+        "en": "A beef, beefs"
+      },
+      {
+        "fr": "Se garer",
+        "en": "To park"
+      },
+      {
+        "fr": "Garer sa voiture",
+        "en": "To park your car"
+      },
+      {
+        "fr": "Cultiver des fruits ou des légumes",
+        "en": "לגדל פירות וירקות"
+      },
+      {
+        "fr": "Élèver des animaux",
+        "en": "לגדל חיות"
+      },
+      {
+        "fr": "Évoluer",
+        "en": "To evolve, to change"
+      },
+      {
+        "fr": "Regretter",
+        "en": "To regret, to miss (להתחרט, להתגעגע)"
+      },
+      {
+        "fr": "Moche, laid",
+        "en": "Ugly"
+      },
+      {
+        "fr": "Pratique",
+        "en": "Practical, convenient"
+      },
+      {
+        "fr": "Quelquefois",
+        "en": "Sometimes"
+      },
+      {
+        "fr": "Je suis d'accord avec toi.",
+        "en": "I agree with you."
+      },
+      {
+        "fr": "C’est dommage, Quel dommage",
+        "en": "It’s too bad"
+      },
+      {
+        "fr": "C’est dommage de ne plus voir la mer de la maison.",
+        "en": "It's a shame not to be able to see the sea from the house anymore."
+      },
+      {
+        "fr": "Je peux garer ma voiture dans la parking.",
+        "en": "I can park my car in the parking lot."
+      },
+      {
+        "fr": "Comment était le quartier avant?",
+        "en": "How was the neighborhood before?"
+      },
+      {
+        "fr": "Je regrette cette période.",
+        "en": "I miss that time."
+      },
+      {
+        "fr": "Je regrette cette décision.",
+        "en": "I regret this decision."
+      },
+      {
+        "fr": "Non, je ne regrette rien.",
+        "en": "No, I have no regrets."
       }
     ],
     "Justine_Lessons/Jusine_Lesson_2.txt": [
